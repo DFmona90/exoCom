@@ -5,7 +5,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+
+    background: rgb(63,157,251);
+    background: radial-gradient(circle, rgba(63,157,251,0.7672839042467949) 16%, rgba(98,54,128,1) 72%); 
+  
+}
   .form-container {
     background: white;
     padding: 30px;
@@ -41,20 +45,59 @@ body {
   }
 
 
-.navbar {
+h1,p{
     
-        position: fixed;
-        top: 0;
-        list-style: none;
-        background-color: #7199c5;
-        color: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        z-index: 1000;
-        max-width: 1200px; /* ou 100%, selon ton besoin */
-        margin: 0 auto; /* centre horizontalement */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    
+}
+.p{
 
-     }
+    justify-content: center;
+    align-items: self-start;
+    height: 70vh;
+    padding-top: 20px;
+}
+
+
+.nav2{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000; 
+    padding: 1rem;
+    margin-left: 2rem;
+    gap: 2rem;
+    
+}
+
+
+ul,a  {
+    
+    text-decoration: none;
+    list-style: none;
+    background: rgb(2,0,36);
+    color: white;
+    background: linear-gradient(90deg, rgb(9, 5, 76) 0%, rgb(28, 28, 132) 33%, rgba(0,212,255,1) 100%);     display: flex;
+    gap: 3rem;
+    padding: 1rem;
+    
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000; 
+    margin-left: 2rem;
+    gap: 2rem;
+
+
+  }
+
+  
       
